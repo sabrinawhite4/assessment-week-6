@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/sabrinawhite4/assessment-week-6#readme",
   "dependencies": {
-    "gradient-string": "^1.2.0"
+    "chromedriver": "^91.0.1",
+    "express": "^4.17.1",
+    "gradient-string": "^1.2.0",
+    "path": "^0.12.7",
+    "selenium-webdriver": "^4.0.0-beta.4"
   }
 }
