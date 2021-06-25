@@ -1,10 +1,10 @@
 {
-  "name": "Assessment",
+  "name": "assessment",
   "version": "1.0.0",
   "description": "",
   "main": "server/index.js",
   "scripts": {
-    "start": "cd QA-test && node server/index.js",
+    "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,5 +13,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabrinawhite4/assessment-week-6/issues"
+  },
+  "homepage": "https://github.com/sabrinawhite4/assessment-week-6#readme",
+  "dependencies": {
+    "gradient-string": "^1.2.0"
+  }
 }
