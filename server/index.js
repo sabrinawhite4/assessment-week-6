@@ -5,7 +5,7 @@ const gradient = require('gradient-string')
 const app = express()
 
 app.get('/',function(req,res) {
-  res.sendFile(path.join(__dirname, './tictacjs.html'));
+  res.sendFile(path.join(__dirname, '../tictacjs.html'));
 });
 
 const port = process.env.PORT || 4000
